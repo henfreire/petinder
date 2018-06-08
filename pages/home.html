@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="pt_BR">
+
+<head>
+    <!-- Page Title-->
+    <title>Petinder</title>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Serviço de relacionamentos para Pet's">
+    <meta name="keywords" content="PET, Petinder, Tinder, encontro">
+    <meta name="author" content="Samuel Galante, Luan Cesar, Pedro Dantas, Marco Tulio Salles, Henrique Freire, Thiago Costa">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../view/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../view/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!----------JQUERY------------------->
+    <script src="../view/jquery/jquery-3.3.1.min.js"></script>
+
+    <!-- Petinder -->
+    
+    <link rel="icon" href="../images/logo/logocurta.png" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark  bg-info ">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="navbar-brand"><img src="../images/logo/logocurta.png" alt="" height="35px"></a>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuteste">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menuteste" class="collapse navbar-collapse justify-content-end">
+                <ul class="nav nav-tabs ">
+                    <li class="nav-item">
+                        <a id="btnPerfil" class="nav-link text-light"><img  class="perfil-dono-foto rounded-circle img-fluid img-user" src="../images/people/user5.jpg" width="200"></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a id="btnAlterarPerfil" class="nav-link text-light"><i class="fas fa-cog"></i></a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a id="btnCadastroPets" href="#" class="nav-link text-light"><i class="fas fa-paw"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-light " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-h"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a onclick="logout()" class="dropdown-item sair-sistema" href="#">Sair</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="pagina-pets">
+
+        </div>
+
+        <div id="pagina-altera">
+
+        </div>
+
+        <div id="pagina-cadastropets">
+
+        </div>
+        
+        <div id="pagina-perfilpet">
+
+        </div>
+
+
+
+    </main>
+    
+    <!----------JQUERY------------------->
+    <script src="../view/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../view/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+    <script type="text/javascript" src="../view/js/providers/conection-firebase.js"></script>
+    <script type="text/javascript" src="../view/js/providers/api-firebase.js"></script>
+
+    <!-- Petinder -->
+    <script src="../view/js/cadastroController.js"></script>
+    <script src="../view/js/petController.js"></script>
+    <script src="../view/js/perfilController.js"></script>
+    <script src="../view/js/loginController.js"></script>
+    <script src="../view/js/homeController.js"></script>
+    
+
+    <!-- Fontawesome CSS -->
+    <script defer src="../view/fontawesome/js/fontawesome-all.js"></script>
+    
+</body>
+
+</html>

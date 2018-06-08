@@ -1,0 +1,66 @@
+<section>
+    <div class="container">
+        <div class="text-center" id="logohome">
+
+            <div id="txthome" class="container-fluid">
+                <h1>Alteração de Perfil</h1>
+
+            </div>
+        </div>
+        <form id="form" class="conteudo container rounded" id="formularioCadastroDono">
+            <div class="form-row text-center">
+
+                <div class="col-sm-6 form-group">
+                    <ul class="list-unstyled components">
+                        <li><img class="rounded-circle avatar-perfil-dono perfil-dono-foto" src="../images/people/user5.jpg" /></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <div class=" form-group">
+                        <label class="" for="exampleFormControlFile1">Selecione uma Foto:</label>
+                        <input type="file" class="form-control-file" id="cadDonoAvatar">
+                    </div>
+                </div>
+
+                <div class="col-sm-6 form-group">
+                    <label for="campo1">Nome:</label>
+                    <input type="name" class="form-control " id="cadDonoName">
+                </div>
+
+                <div class="col-sm-6 form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control " id="cadDonoEmail" name="email" disabled
+                    >
+                </div>
+
+                <div class="col-sm-4 form-group ">
+                    <label for="inputGroupSelect01">Sexo:</label>
+                    <select class="custom-select text-left" id="cadDonoSexo">
+                        <option value="m"selected>Masculino</option>
+                        <option value="f">Feminino</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-4 form-group">
+                    <label for="example-date-input">Data de Nascimento:</label>
+                    <input class="form-control" type="date" value="2011-08-19" id="cadDonoNascimento">
+                </div>
+
+                <div id="mov" class="col-sm-4 form-group">
+                    <button type="submit" id="setLocation" class="btn btn-info bg-info">Definir Localização</button>
+                </div>
+
+                <div class="col-sm-12 form-group">
+                    <label for="exampleFormControlTextarea1">Descrição:</label>
+                    <textarea class="form-control" id="cadDonoBios" rows="3"></textarea>
+                </div>
+                <div class="col-sm-2 form-group">
+                    <button type="button" id="salvarDadosDono" class="btn btn-info bg-info">Salvar</button>
+                </div>
+                <div class="col-sm-2 form-roup">
+                    <button type="button" id="btnCadastroPets" class="btn btn-info bg-info">Adicionar Pet</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

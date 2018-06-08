@@ -1,0 +1,112 @@
+<section>
+    <div class="container">
+        <div class="text-center" id="logohome">
+            <div id="txthome" class="container-fluid">
+                <h1>
+                    Meus Pets
+                </h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" id="listUserPets">
+    <!--<div class="row text-center justify-content-center">-->
+    <!--    <div class="col-sm-4 ">-->
+    <!--        <div class=" conteudo ">-->
+    <!--            <div class="container conteudo ">-->
+    <!--                <ul class="list-unstyled components">-->
+    <!--                    <li><a><img class="imgmeudog img-fluid rounded-circle " src="../images/pets/bird/bird1.jpg" /></a></li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--            <ul class="text-left list-unstyled components txtmeupet">-->
+    <!--                <li id="namePet1">Nome: Piu Piu</li>-->
+    <!--                <li>Espécie: Pássaro</li>-->
+    <!--                <li>Sexo: Macho</li>-->
+    <!--            </ul>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div class="col-sm-4 ">-->
+    <!--        <div class=" conteudo ">-->
+    <!--            <div class="container conteudo ">-->
+    <!--                <ul class="list-unstyled components">-->
+    <!--                    <li><img class="imgmeudog img-fluid rounded-circle " src="../images/pets/cat/cat2.png" /></li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--            <ul class="text-left list-unstyled components txtmeupet">-->
+    <!--                <li id="namePet2">Nome: Felix</li>-->
+    <!--                <li>Espécie: Gato</li>-->
+    <!--                <li>Sexo: Macho</li>-->
+    <!--            </ul>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div class="col-sm-4 ">-->
+    <!--        <div class=" conteudo ">-->
+    <!--            <div class="container conteudo ">-->
+    <!--                <ul class="list-unstyled components">-->
+    <!--                    <li><img class="imgmeudog img-fluid rounded-circle" src="../images/pets/dogs/dog1.jpeg" /></li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--            <ul class="text-left list-unstyled components txtmeupet">-->
+    <!--                <li id="namePet3">Nome: Tótó</li>-->
+    <!--                <li>Espécie: Cachorro</li>-->
+    <!--                <li>Sexo: Fêmea</li>-->
+    <!--            </ul>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    </div>
+    
+    <div class="container">
+        <div class="text-center" id="logohome">
+            <div id="txthome" class="container-fluid">
+                <h1>Adicionar Pets</h1>
+            </div>
+        </div>
+        <form id="form" class="conteudo container rounded" id="formularioCadastropet">
+            <div class="form-row justify-content-left ">
+                <div class="col-sm-6 form-group">
+                    <ul class="list-unstyled components text-center">
+                        <li><img id="imgcadastrodog" class="img-fluid avatar-perfil-pet" src="../images/pets/cat/cat1.jpg" /></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <div class=" form-group">
+                        <label class="" for="exampleFormControlFile1">Selecione uma Foto:</label>
+                        <input type="file" class="form-control-file" id="cadPetImg">
+                    </div>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="campo1">Nome:</label>
+                    <input type="name" class="form-control " id="cadPetName">
+                </div>
+                <div class="col-sm-4 form-group ">
+                    <label for="inputGroupSelect01">Seu pet é um :</label>
+                    <select class="custom-select text-left" id="cadPetEsp">
+                  <option value="Cachorro"selected>Cachorro</option>
+                  <option value="Passaro">Pássaro</option>
+                  <option value="Gato">Gato</option>
+                  <option value="Coelho">Coelho</option>
+               </select>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="raça">Raça:</label>
+                    <input type="name" class="form-control " id="cadPetRaca">
+                </div>
+                <div class="col-sm-4 form-group ">
+                    <label for="inputGroupSelect01">Sexo:</label>
+                    <select class="custom-select text-left" id="cadPetSexo">
+                  <option value="Macho"selected>Macho</option>
+                  <option value="Fêmea">Fêmea</option>
+               </select>
+                </div>
+                <div class="col-sm-12 form-group">
+                    <label for="exampleFormControlTextarea1">Descrição:</label>
+                    <textarea class="form-control" id="cadPetDesc"></textarea>
+                </div>
+                <div class="col-sm-2 form-group">
+                    <button type="submit" id="btnCadPets" class="btn btn-info bg-info">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
